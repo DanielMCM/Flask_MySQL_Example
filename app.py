@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 from flaskext.mysql import MySQL
+from helpers.contact import contact
 import xmltodict
 import os
 

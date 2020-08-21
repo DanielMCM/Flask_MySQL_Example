@@ -1,5 +1,6 @@
-import regex
+import regex as re
 import xmltodict
+import json
 
 class contact():
     def __init__(self,FirstName=None, LastName=None, address=None, email=None,phone=None, pth = None):

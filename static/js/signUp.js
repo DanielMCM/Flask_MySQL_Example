@@ -16,8 +16,8 @@ $(document).ready(function () {
 			processData: false,
 			async: false,
 			success: function (data) {
-				cont = new contact(data["contact"]["firstname"], data["contact"]["lastname"], data["contact"]["address"], data["contact"]["email"], data["contact"]["phone"])
-				cont.fullvalidation(data);
+				cont2 = new contact(data["contact"]["firstname"], data["contact"]["lastname"], data["contact"]["address"], data["contact"]["email"], data["contact"]["phone"])
+				cont2.fullvalidation(data);
 				$('#upload-file')[0].reset(); 
 			}
 		});
